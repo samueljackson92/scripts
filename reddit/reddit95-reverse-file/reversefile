@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+open(INPUT_FILE, $ARGV[0]) or die "Couldn't open $ARGV[0]!";
+print join "\n", map {join " ", reverse split} reverse <INPUT_FILE>;
+print "\n";

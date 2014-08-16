@@ -1,0 +1,10 @@
+/* style.css
+ * Date: 15/06/13
+ * Author: Samuel Jackson (samueljackson@outlook.com)
+ * Description: Basic styling for the application beyond Base CSS.
+ */
+
+ body {text-align: center; font-family: 'Roboto Slab', serif;}
+ canvas {border: 1px dashed #aaa; margin: 10px;}
+ #info { width: 640px; margin: 0 auto;}
+ #info span {padding: 10px;}

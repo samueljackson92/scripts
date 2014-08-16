@@ -1,0 +1,95 @@
+26/5/11 Maze Algorithm:
+	-- Added a new way to generate maps using Prim's Algorithm
+		- Will generate a "perfect maze" using every avalible space on the map
+		
+	-- Fixed random map generation algorithm
+	
+	-- Added a new map saving function called Map:saveVisMap
+		- This function will save the map as a sequence of characters which repersent whether the tile is solid or not
+		- This function is useful for debugging and reviewing a birds-eye view of the map after runtime
+
+18/5/11 Textures and Entities added:
+	-- Created a way to add new blocks and define there functionality
+		- Updated how maps are saved and uploaded to reflect this
+	
+	-- Moved the player object to entities file
+		- This makes creating entities similar to defining blocks.
+		- Will be useful for creating enemies and other npcs.
+		
+	-- Moved the loading of all images used to a single data structure
+		- Found in the textures file
+
+29/4/11 GUI Engine update:
+	-- Added new component called Frame
+		- Frames act as containers for other GUI elements
+		- GUI Objects can be added to a Frame using :addObject(obj, x, y)
+			- note this will set the object realtive to the frames x,y and NOT the window x,y
+		- A whole frame (including its children) can be moved to a new position simply by using its :setCoordinates(x,y) function
+		
+	-- Minor change to master draw function.
+		- Draw function will now only attempt to draw if the objects image is set to a value.
+	
+	-- Added :set/getRect functions to all GUI objects
+		- Instead of having to set a image for objects, you can now just draw a rectangle
+			- Use :setRect(mode*) to draw the background from the object's x/y to the object's w/h
+				- *Note that the mode arg is optional and will default to "fill" (can be "fill" or "line")
+		- You must set a width and height for the object for this feature to work.
+
+28/3/11 Massive Engine update!:
+	-- Map engine now has a new, faster, more effcient algorithm
+		- Guaranteed to produce the max amount of rooms with minimal overlap of rooms and corridors.
+	
+	-- There a no "hyper-corridors" by default. This makes for lots of back tracking.
+		- add hyper corridors to counter it this effect if you wish.
+	
+	-- Engine will now correctly handle larger maps
+		- I've tested it with 1024 rooms but it started to become laggy. However i think 256 is more than adequite
+		- You can now change map size without fiddeling with the map internals (still not user friendly though)
+	
+	-- Added function Player:setViewpoint to player file
+		- This is used to set the users viewpoint directly, rather than updating it on user input
+		- Useful for jumping the camera position. Just feed it column and row values.
+		
+	-- Map Settings updated
+		- Functions such as Map:setNumRooms() now accept only 1 parameter by default instead of two.
+		- E.g Map:setNumRooms(10) will make 10 rooms
+		- Map:setNumRooms(3, 10) will make somwhere between 3 and 10 rooms
+		- This works for:
+			- Setting hyper corridors
+			- Setting number of rooms
+			- Setting rooms sizes
+			
+	-- Added a function to make straight corridors
+		- Function will randomly build along either x first then y or y then x.
+		
+	-- Add new settings corridor type and hyper corridor type
+		- pass "s" as a parameter for straight corridors
+		- pass "z" as a parameter for z shaped corridors
+		- pass "b" as a parameter for a 50/50 chance that either is made (works per link!)
+		- set using Map:setCorridorType(arg) and Map:setHyperCorridorType(arg)
+
+		
+22/3/11 Added GUI Stuff:
+	-- New folder called HeartGUI contains some generic GUI components that may come in hand for building
+		inventories and menu systems later on. Current components are:
+			- Textbox - simple alpha-numeric input.
+			- Button - Has programmable click and hover events
+			- Label - basically plain text, but with a few functions to help with formatting. Buttons and textboxes use labels
+			
+	-- Other components/events/features can be added on request.
+			
+
+19/3/11 Map Engine:
+	-- Correctly Added new lighting engine!
+		- You can now have an unlimited light spread. (e.g. five blocks wide)
+		- To change the light level just run map:setLightLimit(int value) in love.load (currently has default of 3)
+		- You can also get the light level with map:getLightLimit()
+		- Used brensenham's algorithm; light will not spread over walls.
+		
+	-- Updated Ligthing engine:
+		- Code is now massively more effcient.
+		- Can also apply lighting dynamically to any moving object using drawable:updateLighting(object)
+		- You can also apply/remove lighting to static objects using drawable:applyLighting(object) and drawable:removeLighting(object)
+		- Each drawable object now also has a light range variable and a table to store lit squares.
+
+	-- Also tidyed up map code and added some comment seperators for different levels.

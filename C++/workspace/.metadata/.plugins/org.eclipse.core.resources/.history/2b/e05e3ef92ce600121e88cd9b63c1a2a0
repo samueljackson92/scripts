@@ -1,0 +1,21 @@
+#ifndef LISTNODE_H_
+#define LISTNODE_H_
+/*
+ * ListNode.h
+ *
+ *  Created on: 6 Jul 2013
+ *      Author: samuel
+ */
+
+template<class T>
+class ListNode
+{
+public:
+  ListNode();
+  virtual ~ListNode();
+
+private:
+
+};
+
+#endif /* LISTNODE_H_ */

@@ -1,0 +1,6 @@
+1344969232897	Encapsulate field 'isRunnable'
+1344974439356	Encapsulate field 'name'
+1344977659146	Encapsulate field 'params'
+1344977773319	Rename local variable 'params'
+1345024597545	Rename local variable 'pd'
+1345024690435	Encapsulate field 'type'

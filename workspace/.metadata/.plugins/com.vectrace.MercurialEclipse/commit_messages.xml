@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commitmessages>
+<commitmessage>Updated documentation</commitmessage>
+<commitmessage>Added assginment documentation file. Fix minor bugs. Application now prints completed orders.</commitmessage>
+<commitmessage>Added required XML files. Minor touch ups across the application.</commitmessage>
+<commitmessage>Tidied up packages. Tidied up dialog presentation. Fixed orders loading. Removed all unused imports from classes.</commitmessage>
+<commitmessage>Touched up error handling in various places. Modified ErrorHandler to give more direct access. Added new discount class.</commitmessage>
+<commitmessage>Created new window components for viewing reciepts created but the application. Also created a more generic xml i/o class to handle the serialisation of objects.</commitmessage>
+<commitmessage>Added better error handling model. Added ErrorHandler class to create JOptionPanes for errors in try catch situations. Created a new exception for when items are not selected.</commitmessage>
+<commitmessage>Application now has the ability to add orders, including customer name, to the till system.</commitmessage>
+<commitmessage>Added discount calculations and support for creating unique discounts. Rearranged classes into new packages as appropriate</commitmessage>
+<commitmessage>Application will now subtotal items within the order.</commitmessage>
+</commitmessages>

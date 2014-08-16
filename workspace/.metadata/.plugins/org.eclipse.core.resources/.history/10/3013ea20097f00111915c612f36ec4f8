@@ -1,0 +1,105 @@
+package uk.ac.aber.dcs.cs12420.aberpizza.data;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import uk.ac.aber.dcs.cs12420.aberpizza.data.enums.ItemType;
+import uk.ac.aber.dcs.cs12420.aberpizza.data.exceptions.ProductNotFoundException;
+import uk.ac.aber.dcs.cs12420.aberpizza.data.model.Drink;
+import uk.ac.aber.dcs.cs12420.aberpizza.data.model.Item;
+import uk.ac.aber.dcs.cs12420.aberpizza.data.model.Pizza;
+import uk.ac.aber.dcs.cs12420.aberpizza.data.model.Product;
+import uk.ac.aber.dcs.cs12420.aberpizza.data.model.Side;
+
+public class ProductLibrary {
+	private ArrayList<Pizza> pizzas;
+	private ArrayList<Side> sides;
+	private ArrayList<Drink> drinks;
+	
+	public ProductLibrary() {
+		pizzas = new ArrayList<Pizza>();
+		sides = new ArrayList<Side>();
+		drinks = new ArrayList<Drink>();
+	}
+	
+	public void saveLibrary() throws IOException {
+		XMLIO xmlrunner = new XMLIO();
+		xmlrunner.encodeObject(pizzas, "libpizzas.xml");
+		xmlrunner.encodeObject(sides, "libsides.xml");
+		xmlrunner.encodeObject(drinks, "libdrinks.xml");
+	}
+	
+	public void loadLibrary() throws FileNotFoundException {
+		XMLIO xmlrunner = new XMLIO();
+		pizzas = (ArrayList<Pizza>) xmlrunner.decodeObject("libpizzas.xml");
+		sides = (ArrayList<Side>) xmlrunner.decodeObject("libsides.xml");
+		drinks = (ArrayList<Drink>) xmlrunner.decodeObject("libdrinks.xml");
+	}
+	
+	public void addProduct(Product p){
+		getArrayList(p.getType()).add(p);
+	}
+	
+	public Product getProduct(String name, ItemType type) throws ProductNotFoundException{
+		ArrayList<Product> ps = getArrayList(type);
+		for (Product p : ps){
+			if(p.getDescription().equals(name)){
+				return p;
+			}
+		}
+		throw new ProductNotFoundException("Could not find the product: " + name);
+	}
+	private ArrayList<Product> getArrayList(ItemType type) {
+		switch(type){
+			case PIZZA:
+				return (ArrayList) pizzas;
+			case SIDE:
+				return (ArrayList) sides;
+			case DRINK:
+				return (ArrayList) drinks;
+			default:
+				return null;
+		}
+	}
+	public ArrayList<Pizza> getPizzas() {
+		return pizzas;
+	}
+	public void setPizzas(ArrayList<Pizza> pizzas) {
+		this.pizzas = pizzas;
+	}
+	public ArrayList<Side> getSides() {
+		return sides;
+	}
+	public void setSides(ArrayList<Side> sides) {
+		this.sides = sides;
+	}
+	public ArrayList<Drink> getDrinks() {
+		return drinks;
+	}
+	public void setDrinks(ArrayList<Drink> drinks) {
+		this.drinks = drinks;
+	}
+
+	public void removeItem(Item item) {
+		switch(item.getType()){
+			case PIZZA:
+				removeItem(pizzas, item);
+				break;
+			case SIDE:
+				removeItem(sides, item);
+				break;
+			case DRINK:
+				removeItem(drinks, item);
+				break;
+		}
+	}
+	
+	private void removeItem(ArrayList<? extends Product> args, Item item){
+		for (int i=0; i<args.size(); i++){
+			if (args.get(i).equalsItem(item)){
+				args.remove(i);
+			}
+		}
+	}
+}

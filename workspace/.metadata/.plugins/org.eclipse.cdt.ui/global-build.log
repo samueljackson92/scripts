@@ -1,0 +1,3353 @@
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -include/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+cc1plus: fatal error: /home/samuel/SFML-1.6/include: No such file or directory
+compilation terminated.
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -include/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+cc1plus: fatal error: /home/samuel/SFML-1.6/include: No such file or directory
+compilation terminated.
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp:14:32: error: ‘::main’ must return ‘int’
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o   
+./Main.o: In function `main':
+/home/samuel/Dropbox/Personal/code/workspace/AMazer/Debug/../Main.cpp:15: undefined reference to `sf::VideoMode::VideoMode(unsigned int, unsigned int, unsigned int)'
+/home/samuel/Dropbox/Personal/code/workspace/AMazer/Debug/../Main.cpp:15: undefined reference to `sf::RenderWindow::RenderWindow(sf::VideoMode, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, sf::WindowSettings const&)'
+/home/samuel/Dropbox/Personal/code/workspace/AMazer/Debug/../Main.cpp:16: undefined reference to `sf::RenderWindow::~RenderWindow()'
+/home/samuel/Dropbox/Personal/code/workspace/AMazer/Debug/../Main.cpp:15: undefined reference to `sf::RenderWindow::~RenderWindow()'
+collect2: ld returned 1 exit status
+make: *** [AMazer] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o   
+./Main.o: In function `main':
+/home/samuel/Dropbox/Personal/code/workspace/AMazer/Debug/../Main.cpp:15: undefined reference to `sf::VideoMode::VideoMode(unsigned int, unsigned int, unsigned int)'
+/home/samuel/Dropbox/Personal/code/workspace/AMazer/Debug/../Main.cpp:15: undefined reference to `sf::RenderWindow::RenderWindow(sf::VideoMode, std::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, sf::WindowSettings const&)'
+/home/samuel/Dropbox/Personal/code/workspace/AMazer/Debug/../Main.cpp:16: undefined reference to `sf::RenderWindow::~RenderWindow()'
+/home/samuel/Dropbox/Personal/code/workspace/AMazer/Debug/../Main.cpp:15: undefined reference to `sf::RenderWindow::~RenderWindow()'
+collect2: ld returned 1 exit status
+make: *** [AMazer] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o   -llibsfml-graphics.so -llibsfml-window.so -llibsfml-window.so
+/usr/bin/ld: cannot find -llibsfml-graphics.so
+/usr/bin/ld: cannot find -llibsfml-window.so
+/usr/bin/ld: cannot find -llibsfml-window.so
+collect2: ld returned 1 exit status
+make: *** [AMazer] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o   -llibsfml-graphics -llibsfml-window -llibsfml-system
+/usr/bin/ld: cannot find -llibsfml-graphics
+/usr/bin/ld: cannot find -llibsfml-window
+/usr/bin/ld: cannot find -llibsfml-system
+collect2: ld returned 1 exit status
+make: *** [AMazer] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+In file included from ../HashNode.cpp:8:0:
+../HashNode.h:21:3: error: ‘string’ does not name a type
+../HashNode.h:22:20: error: ISO C++ forbids initialization of member ‘next’ [-fpermissive]
+../HashNode.h:22:20: error: making ‘next’ static [-fpermissive]
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+In file included from ../HashNode.cpp:8:0:
+../HashNode.h:21:3: error: ‘string’ does not name a type
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+In file included from ../HashNode.cpp:8:0:
+../HashNode.h:20:3: error: ‘string’ in namespace ‘std’ does not name a type
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+In file included from ../HashNode.cpp:8:0:
+../HashNode.h:19:3: error: ‘string’ in namespace ‘std’ does not name a type
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+In file included from ../HashNode.cpp:8:0:
+../HashNode.h:19:3: error: ‘String’ in namespace ‘std’ does not name a type
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+In file included from ../HashNode.cpp:8:0:
+../HashNode.h:15:2: error: ‘string’ in namespace ‘std’ does not name a type
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+In file included from ../HashNode.cpp:8:0:
+../HashNode.h:19:3: error: ‘string’ in namespace ‘std’ does not name a type
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+In file included from ../HashNode.cpp:8:0:
+../HashNode.h:15:2: error: ‘string’ in namespace ‘std’ does not name a type
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+In file included from ../HashNode.cpp:8:0:
+../HashNode.h:15:2: error: ‘string’ in namespace ‘std’ does not name a type
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+In file included from ../HashNode.cpp:8:0:
+../HashNode.h:15:2: error: ‘string’ in namespace ‘std’ does not name a type
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../HashNode.cpp
+Invoking: GCC C++ Compiler
+g++ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"HashNode.d" -MT"HashNode.d" -o "HashNode.o" "../HashNode.cpp"
+../HashNode.cpp:10:1: error: invalid use of template-name ‘HashNode’ without an argument list
+../HashNode.cpp:15:1: error: invalid use of template-name ‘HashNode’ without an argument list
+make: *** [HashNode.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0-std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+g++: error: argument to ‘-fmessage-length=’ should be a non-negative integer
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0-std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+g++: error: argument to ‘-fmessage-length=’ should be a non-negative integer
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp:11:18: fatal error: Main.h: No such file or directory
+compilation terminated.
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+../Resources.cpp:8:23: fatal error: Resources.h: No such file or directory
+compilation terminated.
+make: *** [Resources.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+../Resources.cpp: In constructor ‘Resources::Resources()’:
+../Resources.cpp:15:64: error: no match for ‘operator=’ in ‘((Resources*)this)->Resources::images = ((((*(const hasher*)(& std::unordered_map<std::basic_string<char>, sf::Image>::hasher())), (*(const key_equal*)(& std::unordered_map<std::basic_string<char>, sf::Image>::key_equal()))), (*(const allocator_type*)(& std::allocator<std::pair<const std::basic_string<char>, sf::Image> >()))), (operator new(56u), (<statement>, ((std::unordered_map<std::basic_string<char>, sf::Image>*)<anonymous>))))’
+../Resources.cpp:15:64: note: candidates are:
+/usr/include/c++/4.6/bits/unordered_map.h:294:7: note: std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>::operator=(std::initializer_list<typename std::__unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>::value_type>) [with _Key = std::basic_string<char>, _Tp = sf::Image, _Hash = std::hash<std::basic_string<char> >, _Pred = std::equal_to<std::basic_string<char> >, _Alloc = std::allocator<std::pair<const std::basic_string<char>, sf::Image> >, std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc> = std::unordered_map<std::basic_string<char>, sf::Image>, typename std::__unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>::value_type = std::pair<const std::basic_string<char>, sf::Image>]
+/usr/include/c++/4.6/bits/unordered_map.h:294:7: note:   no known conversion for argument 1 from ‘std::unordered_map<std::basic_string<char>, sf::Image>*’ to ‘std::initializer_list<std::pair<const std::basic_string<char>, sf::Image> >’
+/usr/include/c++/4.6/bits/unordered_map.h:256:11: note: std::unordered_map<std::basic_string<char>, sf::Image>& std::unordered_map<std::basic_string<char>, sf::Image>::operator=(const std::unordered_map<std::basic_string<char>, sf::Image>&)
+/usr/include/c++/4.6/bits/unordered_map.h:256:11: note:   no known conversion for argument 1 from ‘std::unordered_map<std::basic_string<char>, sf::Image>*’ to ‘const std::unordered_map<std::basic_string<char>, sf::Image>&’
+/usr/include/c++/4.6/bits/unordered_map.h:256:11: note: std::unordered_map<std::basic_string<char>, sf::Image>& std::unordered_map<std::basic_string<char>, sf::Image>::operator=(std::unordered_map<std::basic_string<char>, sf::Image>&&)
+/usr/include/c++/4.6/bits/unordered_map.h:256:11: note:   no known conversion for argument 1 from ‘std::unordered_map<std::basic_string<char>, sf::Image>*’ to ‘std::unordered_map<std::basic_string<char>, sf::Image>&&’
+make: *** [Resources.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+Finished building: ../Resources.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:15:2: error: ‘Resources’ was not declared in this scope
+../Main.cpp:15:12: error: expected ‘;’ before ‘res’
+../Main.cpp:17:32: error: conversion from ‘sf::Sprite*’ to non-scalar type ‘sf::Sprite’ requested
+../Main.cpp:18:13: error: ‘res’ was not declared in this scope
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:15:32: error: conversion from ‘Resources*’ to non-scalar type ‘Resources’ requested
+../Main.cpp:17:32: error: conversion from ‘sf::Sprite*’ to non-scalar type ‘sf::Sprite’ requested
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:15:32: error: conversion from ‘Resources*’ to non-scalar type ‘Resources’ requested
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+Finished building: ../Resources.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+../Resources.cpp: In member function ‘void Resources::loadImage(std::string, std::string)’:
+../Resources.cpp:21:25: error: no match for ‘operator=’ in ‘((std::__detail::_Map_base<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image>, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image> >, true, std::_Hashtable<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image>, std::allocator<std::pair<const std::basic_string<char>, sf::Image> >, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image> >, std::equal_to<std::basic_string<char> >, std::hash<std::basic_string<char> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, false, false, true> >*)(&((Resources*)this)->Resources::images))->std::__detail::_Map_base<_Key, _Pair, std::_Select1st<_Pair>, true, _Hashtable>::operator[] [with _Key = std::basic_string<char>, _Pair = std::pair<const std::basic_string<char>, sf::Image>, _Hashtable = std::_Hashtable<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image>, std::allocator<std::pair<const std::basic_string<char>, sf::Image> >, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image> >, std::equal_to<std::basic_string<char> >, std::hash<std::basic_string<char> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, false, false, true>, std::__detail::_Map_base<_Key, _Pair, std::_Select1st<_Pair>, true, _Hashtable>::mapped_type = sf::Image]((*(const std::basic_string<char>*)(& name))) = & image’
+../Resources.cpp:21:25: note: candidate is:
+/home/samuel/SFML-1.6/include/SFML/Graphics/Image.hpp:279:12: note: sf::Image& sf::Image::operator=(const sf::Image&)
+/home/samuel/SFML-1.6/include/SFML/Graphics/Image.hpp:279:12: note:   no known conversion for argument 1 from ‘sf::Image*’ to ‘const sf::Image&’
+make: *** [Resources.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+Finished building: ../Resources.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+../Resources.cpp: In member function ‘void Resources::loadImage(std::string, std::string)’:
+../Resources.cpp:18:31: error: no match for ‘operator=’ in ‘((std::__detail::_Map_base<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image>, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image> >, true, std::_Hashtable<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image>, std::allocator<std::pair<const std::basic_string<char>, sf::Image> >, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image> >, std::equal_to<std::basic_string<char> >, std::hash<std::basic_string<char> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, false, false, true> >*)(&((Resources*)this)->Resources::images))->std::__detail::_Map_base<_Key, _Pair, std::_Select1st<_Pair>, true, _Hashtable>::operator[] [with _Key = std::basic_string<char>, _Pair = std::pair<const std::basic_string<char>, sf::Image>, _Hashtable = std::_Hashtable<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image>, std::allocator<std::pair<const std::basic_string<char>, sf::Image> >, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image> >, std::equal_to<std::basic_string<char> >, std::hash<std::basic_string<char> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, false, false, true>, std::__detail::_Map_base<_Key, _Pair, std::_Select1st<_Pair>, true, _Hashtable>::mapped_type = sf::Image]((*(const std::basic_string<char>*)(& name))) = (operator new(104u), (<statement>, ((sf::Image*)<anonymous>)))’
+../Resources.cpp:18:31: note: candidate is:
+/home/samuel/SFML-1.6/include/SFML/Graphics/Image.hpp:279:12: note: sf::Image& sf::Image::operator=(const sf::Image&)
+/home/samuel/SFML-1.6/include/SFML/Graphics/Image.hpp:279:12: note:   no known conversion for argument 1 from ‘sf::Image*’ to ‘const sf::Image&’
+make: *** [Resources.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+../Resources.cpp: In member function ‘void Resources::loadImage(std::string, std::string)’:
+../Resources.cpp:18:31: error: no match for ‘operator=’ in ‘((std::__detail::_Map_base<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image>, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image> >, true, std::_Hashtable<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image>, std::allocator<std::pair<const std::basic_string<char>, sf::Image> >, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image> >, std::equal_to<std::basic_string<char> >, std::hash<std::basic_string<char> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, false, false, true> >*)(&((Resources*)this)->Resources::images))->std::__detail::_Map_base<_Key, _Pair, std::_Select1st<_Pair>, true, _Hashtable>::operator[] [with _Key = std::basic_string<char>, _Pair = std::pair<const std::basic_string<char>, sf::Image>, _Hashtable = std::_Hashtable<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image>, std::allocator<std::pair<const std::basic_string<char>, sf::Image> >, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image> >, std::equal_to<std::basic_string<char> >, std::hash<std::basic_string<char> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, false, false, true>, std::__detail::_Map_base<_Key, _Pair, std::_Select1st<_Pair>, true, _Hashtable>::mapped_type = sf::Image]((*(const std::basic_string<char>*)(& name))) = (operator new(104u), (<statement>, ((sf::Image*)<anonymous>)))’
+../Resources.cpp:18:31: note: candidate is:
+/home/samuel/SFML-1.6/include/SFML/Graphics/Image.hpp:279:12: note: sf::Image& sf::Image::operator=(const sf::Image&)
+/home/samuel/SFML-1.6/include/SFML/Graphics/Image.hpp:279:12: note:   no known conversion for argument 1 from ‘sf::Image*’ to ‘const sf::Image&’
+make: *** [Resources.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+Finished building: ../Resources.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+../Resources.cpp: In member function ‘sf::Image Resources::getImage(std::string)’:
+../Resources.cpp:28:26: error: could not convert ‘((std::__detail::_Map_base<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image*>, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image*> >, true, std::_Hashtable<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image*>, std::allocator<std::pair<const std::basic_string<char>, sf::Image*> >, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image*> >, std::equal_to<std::basic_string<char> >, std::hash<std::basic_string<char> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, false, false, true> >*)(&((Resources*)this)->Resources::images))->std::__detail::_Map_base<_Key, _Pair, std::_Select1st<_Pair>, true, _Hashtable>::operator[] [with _Key = std::basic_string<char>, _Pair = std::pair<const std::basic_string<char>, sf::Image*>, _Hashtable = std::_Hashtable<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image*>, std::allocator<std::pair<const std::basic_string<char>, sf::Image*> >, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image*> >, std::equal_to<std::basic_string<char> >, std::hash<std::basic_string<char> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, false, false, true>, std::__detail::_Map_base<_Key, _Pair, std::_Select1st<_Pair>, true, _Hashtable>::mapped_type = sf::Image*]((*(const std::basic_string<char>*)(& name)))’ from ‘std::__detail::_Map_base<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image*>, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image*> >, true, std::_Hashtable<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image*>, std::allocator<std::pair<const std::basic_string<char>, sf::Image*> >, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image*> >, std::equal_to<std::basic_string<char> >, std::hash<std::basic_string<char> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, false, false, true> >::mapped_type {aka sf::Image*}’ to ‘sf::Image’
+../Resources.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [Resources.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+../Resources.cpp: In member function ‘sf::Image Resources::getImage(std::string)’:
+../Resources.cpp:28:26: error: could not convert ‘((std::__detail::_Map_base<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image*>, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image*> >, true, std::_Hashtable<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image*>, std::allocator<std::pair<const std::basic_string<char>, sf::Image*> >, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image*> >, std::equal_to<std::basic_string<char> >, std::hash<std::basic_string<char> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, false, false, true> >*)(&((Resources*)this)->Resources::images))->std::__detail::_Map_base<_Key, _Pair, std::_Select1st<_Pair>, true, _Hashtable>::operator[] [with _Key = std::basic_string<char>, _Pair = std::pair<const std::basic_string<char>, sf::Image*>, _Hashtable = std::_Hashtable<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image*>, std::allocator<std::pair<const std::basic_string<char>, sf::Image*> >, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image*> >, std::equal_to<std::basic_string<char> >, std::hash<std::basic_string<char> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, false, false, true>, std::__detail::_Map_base<_Key, _Pair, std::_Select1st<_Pair>, true, _Hashtable>::mapped_type = sf::Image*]((*(const std::basic_string<char>*)(& name)))’ from ‘std::__detail::_Map_base<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image*>, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image*> >, true, std::_Hashtable<std::basic_string<char>, std::pair<const std::basic_string<char>, sf::Image*>, std::allocator<std::pair<const std::basic_string<char>, sf::Image*> >, std::_Select1st<std::pair<const std::basic_string<char>, sf::Image*> >, std::equal_to<std::basic_string<char> >, std::hash<std::basic_string<char> >, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, false, false, true> >::mapped_type {aka sf::Image*}’ to ‘sf::Image’
+../Resources.cpp:29:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [Resources.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:17:33: error: no match for ‘operator*’ in ‘*Resources::getImage(std::string)(std::basic_string<char>(((const char*)"wall"), (*(const std::allocator<char>*)(& std::allocator<char>()))))’
+../Main.cpp:17:33: note: candidates are:
+/home/samuel/SFML-1.6/include/SFML/Graphics/Color.hpp:142:16: note: sf::Color sf::operator*(const sf::Color&, const sf::Color&)
+/home/samuel/SFML-1.6/include/SFML/Graphics/Color.hpp:142:16: note:   candidate expects 2 arguments, 1 provided
+/home/samuel/SFML-1.6/include/SFML/System/Vector3.inl:124:12: note: template<class T> sf::Vector3<T> sf::operator*(T, const sf::Vector3<T>&)
+/home/samuel/SFML-1.6/include/SFML/System/Vector3.inl:114:12: note: template<class T> sf::Vector3<T> sf::operator*(const sf::Vector3<T>&, T)
+/home/samuel/SFML-1.6/include/SFML/System/Vector2.inl:120:12: note: template<class T> sf::Vector2<T> sf::operator*(T, const sf::Vector2<T>&)
+/home/samuel/SFML-1.6/include/SFML/System/Vector2.inl:110:12: note: template<class T> sf::Vector2<T> sf::operator*(const sf::Vector2<T>&, T)
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+Finished building: ../Resources.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+Finished building: ../Resources.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+Finished building: ../Resources.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+Finished building: ../Resources.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+Finished building: ../Resources.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+Finished building: ../Resources.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Drawable.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Drawable.d" -MT"Drawable.d" -o "Drawable.o" "../Drawable.cpp"
+In file included from ../Drawable.cpp:8:0:
+../Drawable.h:13:12: error: ‘sf’ has not been declared
+../Drawable.h:13:21: error: expected ‘)’ before ‘&’ token
+../Drawable.h:19:16: error: ‘sf’ has not been declared
+../Drawable.h:19:32: error: expected ‘,’ or ‘...’ before ‘&’ token
+../Drawable.h:19:44: error: ISO C++ forbids declaration of ‘draw’ with no type [-fpermissive]
+../Drawable.h:22:3: error: ‘sf’ does not name a type
+../Drawable.cpp:10:19: error: expected constructor, destructor, or type conversion before ‘(’ token
+make: *** [Drawable.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Drawable.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Drawable.d" -MT"Drawable.d" -o "Drawable.o" "../Drawable.cpp"
+In file included from ../Drawable.cpp:8:0:
+../Drawable.h:20:44: error: ISO C++ forbids declaration of ‘draw’ with no type [-fpermissive]
+../Drawable.cpp: In constructor ‘Drawable::Drawable(sf::Image&)’:
+../Drawable.cpp:11:8: error: ‘class Drawable’ has no member named ‘parent’
+../Drawable.cpp:11:17: error: ‘parent’ was not declared in this scope
+make: *** [Drawable.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Drawable.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Drawable.d" -MT"Drawable.d" -o "Drawable.o" "../Drawable.cpp"
+In file included from ../Drawable.cpp:8:0:
+../Drawable.h:21:44: error: ISO C++ forbids declaration of ‘draw’ with no type [-fpermissive]
+../Drawable.cpp: In constructor ‘Drawable::Drawable(sf::Image&)’:
+../Drawable.cpp:11:8: error: ‘class Drawable’ has no member named ‘parent’
+../Drawable.cpp:11:17: error: ‘parent’ was not declared in this scope
+make: *** [Drawable.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Drawable.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Drawable.d" -MT"Drawable.d" -o "Drawable.o" "../Drawable.cpp"
+In file included from ../Drawable.cpp:8:0:
+../Drawable.h:21:50: error: ISO C++ forbids declaration of ‘draw’ with no type [-fpermissive]
+../Drawable.cpp: In constructor ‘Drawable::Drawable(sf::Image&)’:
+../Drawable.cpp:11:8: error: ‘class Drawable’ has no member named ‘parent’
+../Drawable.cpp:11:17: error: ‘parent’ was not declared in this scope
+make: *** [Drawable.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Drawable.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Drawable.d" -MT"Drawable.d" -o "Drawable.o" "../Drawable.cpp"
+Finished building: ../Drawable.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../Resources.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Resources.d" -MT"Resources.d" -o "Resources.o" "../Resources.cpp"
+Finished building: ../Resources.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Drawable.o ./Main.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+In file included from ../Block.cpp:9:0:
+../Block.h:12:30: error: expected class-name before ‘{’ token
+../Block.h:15:13: error: ‘sf’ has not been declared
+../Block.h:15:29: error: expected ‘,’ or ‘...’ before ‘&’ token
+../Block.cpp:15:18: error: variable or field ‘draw’ declared void
+../Block.cpp:15:18: error: ‘sf’ has not been declared
+../Block.cpp:15:36: error: ‘window’ was not declared in this scope
+make: *** [Block.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+In file included from ../Block.cpp:9:0:
+../Block.h:12:30: error: expected class-name before ‘{’ token
+../Block.h:15:13: error: ‘sf’ has not been declared
+../Block.h:15:29: error: expected ‘,’ or ‘...’ before ‘&’ token
+make: *** [Block.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+In file included from ../Block.cpp:9:0:
+../Block.h:12:30: error: expected class-name before ‘{’ token
+../Block.h:15:13: error: ‘sf’ has not been declared
+../Block.h:15:30: error: expected ‘,’ or ‘...’ before ‘&’ token
+make: *** [Block.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+In file included from ../Block.cpp:9:0:
+../Block.h:12:30: error: expected class-name before ‘{’ token
+../Block.h:15:13: error: ‘sf’ has not been declared
+../Block.h:15:30: error: expected ‘,’ or ‘...’ before ‘window’
+make: *** [Block.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+../Block.cpp:11:14: error: definition of implicitly-declared ‘Block::Block()’
+make: *** [Block.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+Finished building: ../Block.cpp
+ 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+In file included from ../DrawManager.cpp:9:0:
+../DrawManager.h:18:20: error: ‘Drawable’ has not been declared
+../DrawManager.h:19:20: error: ‘sf::RenderWindow’ has not been declared
+../DrawManager.h:23:13: error: ‘Drawable’ was not declared in this scope
+../DrawManager.h:23:22: error: template argument 1 is invalid
+../DrawManager.h:23:22: error: template argument 2 is invalid
+../DrawManager.cpp:16:31: error: variable or field ‘addDrawable’ declared void
+../DrawManager.cpp:16:31: error: ‘Drawable’ was not declared in this scope
+../DrawManager.cpp:16:41: error: ‘drawable’ was not declared in this scope
+../DrawManager.cpp:20:31: error: variable or field ‘drawAll’ declared void
+../DrawManager.cpp:20:27: error: ‘RenderWindow’ is not a member of ‘sf’
+../DrawManager.cpp:20:45: error: ‘window’ was not declared in this scope
+make: *** [DrawManager.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+Finished building: ../Block.cpp
+ 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+../DrawManager.cpp: In member function ‘void DrawManager::drawAll(sf::RenderWindow&)’:
+../DrawManager.cpp:21:11: error: ‘template<class _Tp, class _Alloc> class std::list’ used without template parameters
+../DrawManager.cpp:21:32: error: expected ‘;’ before ‘it’
+../DrawManager.cpp:22:28: error: ‘it’ was not declared in this scope
+../DrawManager.cpp:22:34: error: ‘endit’ was not declared in this scope
+../DrawManager.cpp:24:17: error: no matching function for call to ‘Drawable::draw(sf::RenderWindow&)’
+../DrawManager.cpp:24:17: note: candidate is:
+../Drawable.h:25:16: note: virtual void Drawable::draw(sf::RenderWindow*)
+../Drawable.h:25:16: note:   no known conversion for argument 1 from ‘sf::RenderWindow’ to ‘sf::RenderWindow*’
+make: *** [DrawManager.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+../DrawManager.cpp: In member function ‘void DrawManager::drawAll(sf::RenderWindow&)’:
+../DrawManager.cpp:21:11: error: ‘template<class _Tp, class _Alloc> class std::list’ used without template parameters
+../DrawManager.cpp:21:32: error: expected ‘;’ before ‘it’
+../DrawManager.cpp:22:43: error: ‘it’ was not declared in this scope
+../DrawManager.cpp:22:45: error: expected ‘;’ before ‘)’ token
+../DrawManager.cpp:24:17: error: no matching function for call to ‘Drawable::draw(sf::RenderWindow&)’
+../DrawManager.cpp:24:17: note: candidate is:
+../Drawable.h:25:16: note: virtual void Drawable::draw(sf::RenderWindow*)
+../Drawable.h:25:16: note:   no known conversion for argument 1 from ‘sf::RenderWindow’ to ‘sf::RenderWindow*’
+make: *** [DrawManager.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+../DrawManager.cpp: In member function ‘void DrawManager::drawAll(sf::RenderWindow&)’:
+../DrawManager.cpp:21:11: error: ‘template<class _Tp, class _Alloc> class std::list’ used without template parameters
+../DrawManager.cpp:21:32: error: expected ‘;’ before ‘it’
+../DrawManager.cpp:21:36: error: ‘it’ was not declared in this scope
+../DrawManager.cpp:22:4: error: ‘endit’ was not declared in this scope
+../DrawManager.cpp:24:17: error: no matching function for call to ‘Drawable::draw(sf::RenderWindow&)’
+../DrawManager.cpp:24:17: note: candidate is:
+../Drawable.h:25:16: note: virtual void Drawable::draw(sf::RenderWindow*)
+../Drawable.h:25:16: note:   no known conversion for argument 1 from ‘sf::RenderWindow’ to ‘sf::RenderWindow*’
+make: *** [DrawManager.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+../DrawManager.cpp: In member function ‘void DrawManager::drawAll(sf::RenderWindow&)’:
+../DrawManager.cpp:21:11: error: ‘template<class _Tp, class _Alloc> class std::list’ used without template parameters
+../DrawManager.cpp:21:32: error: expected ‘;’ before ‘it’
+../DrawManager.cpp:22:28: error: ‘it’ was not declared in this scope
+../DrawManager.cpp:22:34: error: ‘endit’ was not declared in this scope
+../DrawManager.cpp:24:17: error: no matching function for call to ‘Drawable::draw(sf::RenderWindow&)’
+../DrawManager.cpp:24:17: note: candidate is:
+../Drawable.h:25:16: note: virtual void Drawable::draw(sf::RenderWindow*)
+../Drawable.h:25:16: note:   no known conversion for argument 1 from ‘sf::RenderWindow’ to ‘sf::RenderWindow*’
+make: *** [DrawManager.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+../DrawManager.cpp: In member function ‘void DrawManager::drawAll(sf::RenderWindow&)’:
+../DrawManager.cpp:21:11: error: ‘template<class _Tp, class _Alloc> class std::list’ used without template parameters
+../DrawManager.cpp:21:32: error: expected ‘;’ before ‘it’
+../DrawManager.cpp:21:79: error: ‘it’ was not declared in this scope
+../DrawManager.cpp:21:85: error: ‘endit’ was not declared in this scope
+../DrawManager.cpp:23:17: error: no matching function for call to ‘Drawable::draw(sf::RenderWindow&)’
+../DrawManager.cpp:23:17: note: candidate is:
+../Drawable.h:25:16: note: virtual void Drawable::draw(sf::RenderWindow*)
+../Drawable.h:25:16: note:   no known conversion for argument 1 from ‘sf::RenderWindow’ to ‘sf::RenderWindow*’
+make: *** [DrawManager.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+../DrawManager.cpp:20:6: error: prototype for ‘void DrawManager::drawAll(sf::RenderWindow*)’ does not match any in class ‘DrawManager’
+../DrawManager.h:21:8: error: candidate is: void DrawManager::drawAll(sf::RenderWindow&)
+make: *** [DrawManager.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+../DrawManager.cpp: In member function ‘void DrawManager::drawAll(sf::RenderWindow*)’:
+../DrawManager.cpp:21:7: error: ‘template<class _Tp, class _Alloc> class std::list’ used without template parameters
+../DrawManager.cpp:21:28: error: expected ‘;’ before ‘it’
+../DrawManager.cpp:22:6: error: ‘it’ was not declared in this scope
+../DrawManager.cpp:22:28: error: ‘endit’ was not declared in this scope
+make: *** [DrawManager.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+../DrawManager.cpp: In member function ‘void DrawManager::drawAll(sf::RenderWindow*)’:
+../DrawManager.cpp:21:7: error: ‘template<class _Tp, class _Alloc> class std::list’ used without template parameters
+../DrawManager.cpp:21:28: error: expected ‘;’ before ‘it’
+../DrawManager.cpp:22:6: error: ‘it’ was not declared in this scope
+../DrawManager.cpp:22:28: error: ‘endit’ was not declared in this scope
+make: *** [DrawManager.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+../DrawManager.cpp: In member function ‘void DrawManager::drawAll(sf::RenderWindow*)’:
+../DrawManager.cpp:21:7: error: ‘template<class _Tp, class _Alloc> class std::list’ used without template parameters
+../DrawManager.cpp:21:28: error: expected ‘;’ before ‘it’
+../DrawManager.cpp:22:7: error: ‘template<class _Tp, class _Alloc> class std::list’ used without template parameters
+../DrawManager.cpp:22:28: error: expected ‘;’ before ‘endit’
+../DrawManager.cpp:23:6: error: ‘it’ was not declared in this scope
+../DrawManager.cpp:23:28: error: ‘endit’ was not declared in this scope
+make: *** [DrawManager.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+Finished building: ../DrawManager.cpp
+ 
+Building file: ../Drawable.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Drawable.d" -MT"Drawable.d" -o "Drawable.o" "../Drawable.cpp"
+Finished building: ../Drawable.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:19:2: error: ‘DrawManager’ was not declared in this scope
+../Main.cpp:19:14: error: expected ‘;’ before ‘drawrer’
+../Main.cpp:20:2: error: ‘MapGen’ was not declared in this scope
+../Main.cpp:20:9: error: expected ‘;’ before ‘mg’
+../Main.cpp:22:2: error: ‘mg’ was not declared in this scope
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+Finished building: ../DrawManager.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:19:2: error: ‘DrawManager’ was not declared in this scope
+../Main.cpp:19:14: error: expected ‘;’ before ‘drawrer’
+../Main.cpp:20:2: error: ‘MapGen’ was not declared in this scope
+../Main.cpp:20:9: error: expected ‘;’ before ‘mg’
+../Main.cpp:22:2: error: ‘mg’ was not declared in this scope
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+In file included from ../Main.cpp:17:0:
+../MapGen.h:16:12: error: ‘Block’ was not declared in this scope
+../MapGen.h:16:17: error: template argument 1 is invalid
+../MapGen.h:16:17: error: template argument 2 is invalid
+../MapGen.h:20:12: error: ‘Block’ was not declared in this scope
+../MapGen.h:20:17: error: template argument 1 is invalid
+../MapGen.h:20:17: error: template argument 2 is invalid
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+In file included from ../MapGen.cpp:10:0:
+../MapGen.h:17:18: error: expected ‘)’ before ‘*’ token
+../MapGen.h:22:2: error: ‘Resources’ does not name a type
+../MapGen.cpp:12:15: error: expected constructor, destructor, or type conversion before ‘(’ token
+../MapGen.cpp: In member function ‘void MapGen::buildMap()’:
+../MapGen.cpp:22:10: error: use of deleted function ‘Block::Block()’
+In file included from ../MapGen.h:13:0,
+                 from ../MapGen.cpp:10:
+../Block.h:16:7: error: ‘Block::Block()’ is implicitly deleted because the default definition would be ill-formed:
+../Block.h:16:7: error: no matching function for call to ‘Drawable::Drawable()’
+../Block.h:16:7: note: candidates are:
+../Drawable.h:16:3: note: Drawable::Drawable(sf::Image&)
+../Drawable.h:16:3: note:   candidate expects 1 argument, 0 provided
+../Drawable.h:14:7: note: Drawable::Drawable(const Drawable&)
+../Drawable.h:14:7: note:   candidate expects 1 argument, 0 provided
+../MapGen.cpp:23:15: error: ‘res’ was not declared in this scope
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp: In member function ‘void MapGen::buildMap()’:
+../MapGen.cpp:22:10: error: use of deleted function ‘Block::Block()’
+In file included from ../MapGen.h:14:0,
+                 from ../MapGen.cpp:10:
+../Block.h:16:7: error: ‘Block::Block()’ is implicitly deleted because the default definition would be ill-formed:
+../Block.h:16:7: error: no matching function for call to ‘Drawable::Drawable()’
+../Block.h:16:7: note: candidates are:
+../Drawable.h:16:3: note: Drawable::Drawable(sf::Image&)
+../Drawable.h:16:3: note:   candidate expects 1 argument, 0 provided
+../Drawable.h:14:7: note: Drawable::Drawable(const Drawable&)
+../Drawable.h:14:7: note:   candidate expects 1 argument, 0 provided
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+Finished building: ../Block.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+./MapGen.o: In function `MapGen::buildMap()':
+/home/samuel/Dropbox/Personal/code/workspace/AMazer/Debug/../MapGen.cpp:22: undefined reference to `Block::Block()'
+collect2: ld returned 1 exit status
+make: *** [AMazer] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+../Block.cpp: In constructor ‘Block::Block()’:
+../Block.cpp:11:14: error: no matching function for call to ‘Drawable::Drawable()’
+../Block.cpp:11:14: note: candidates are:
+../Drawable.h:16:3: note: Drawable::Drawable(sf::Image&)
+../Drawable.h:16:3: note:   candidate expects 1 argument, 0 provided
+../Drawable.h:14:7: note: Drawable::Drawable(const Drawable&)
+../Drawable.h:14:7: note:   candidate expects 1 argument, 0 provided
+make: *** [Block.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+Finished building: ../Block.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp: In member function ‘void MapGen::buildMap()’:
+../MapGen.cpp:22:37: error: no matching function for call to ‘Block::Block(sf::Image&)’
+../MapGen.cpp:22:37: note: candidate is:
+../Block.h:16:7: note: Block::Block(const Block&)
+../Block.h:16:7: note:   no known conversion for argument 1 from ‘sf::Image’ to ‘const Block&’
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+../Block.cpp: In constructor ‘Block::Block(sf::Image&)’:
+../Block.cpp:11:30: error: no matching function for call to ‘Drawable::Drawable()’
+../Block.cpp:11:30: note: candidates are:
+../Drawable.h:16:3: note: Drawable::Drawable(sf::Image&)
+../Drawable.h:16:3: note:   candidate expects 1 argument, 0 provided
+../Drawable.h:14:7: note: Drawable::Drawable(const Drawable&)
+../Drawable.h:14:7: note:   candidate expects 1 argument, 0 provided
+../Block.cpp:12:8: error: invalid use of ‘Drawable::Drawable’
+make: *** [Block.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+Finished building: ../Block.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp: In member function ‘void MapGen::buildMap()’:
+../MapGen.cpp:22:37: error: no matching function for call to ‘Block::Block(sf::Image&)’
+../MapGen.cpp:22:37: note: candidate is:
+../Block.h:16:7: note: Block::Block(const Block&)
+../Block.h:16:7: note:   no known conversion for argument 1 from ‘sf::Image’ to ‘const Block&’
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+../Block.cpp:11:1: error: prototype for ‘Block::Block(sf::Image&)’ does not match any in class ‘Block’
+../Block.h:16:7: error: candidates are: Block::Block(const Block&)
+../Block.h:16:7: error:                 Block::Block()
+make: *** [Block.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+Finished building: ../Block.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+Finished building: ../Block.cpp
+ 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+Finished building: ../DrawManager.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+Finished building: ../DrawManager.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:26:55: error: no matching function for call to ‘std::list<Drawable*>::list(std::list<Block*>)’
+../Main.cpp:26:55: note: candidates are:
+/usr/include/c++/4.6/bits/stl_list.h:611:9: note: template<class _InputIterator> std::list::list(_InputIterator, _InputIterator, const allocator_type&)
+/usr/include/c++/4.6/bits/stl_list.h:594:7: note: std::list<_Tp, _Alloc>::list(std::initializer_list<_Tp>, const allocator_type&) [with _Tp = Drawable*, _Alloc = std::allocator<Drawable*>, std::list<_Tp, _Alloc>::allocator_type = std::allocator<Drawable*>]
+/usr/include/c++/4.6/bits/stl_list.h:594:7: note:   no known conversion for argument 1 from ‘std::list<Block*>’ to ‘std::initializer_list<Drawable*>’
+/usr/include/c++/4.6/bits/stl_list.h:583:7: note: std::list<_Tp, _Alloc>::list(std::list<_Tp, _Alloc>&&) [with _Tp = Drawable*, _Alloc = std::allocator<Drawable*>, std::list<_Tp, _Alloc> = std::list<Drawable*>]
+/usr/include/c++/4.6/bits/stl_list.h:583:7: note:   no known conversion for argument 1 from ‘std::list<Block*>’ to ‘std::list<Drawable*>&&’
+/usr/include/c++/4.6/bits/stl_list.h:571:7: note: std::list<_Tp, _Alloc>::list(const std::list<_Tp, _Alloc>&) [with _Tp = Drawable*, _Alloc = std::allocator<Drawable*>, std::list<_Tp, _Alloc> = std::list<Drawable*>]
+/usr/include/c++/4.6/bits/stl_list.h:571:7: note:   no known conversion for argument 1 from ‘std::list<Block*>’ to ‘const std::list<Drawable*>&’
+/usr/include/c++/4.6/bits/stl_list.h:544:7: note: std::list<_Tp, _Alloc>::list(std::list<_Tp, _Alloc>::size_type, const value_type&, const allocator_type&) [with _Tp = Drawable*, _Alloc = std::allocator<Drawable*>, std::list<_Tp, _Alloc>::size_type = long unsigned int, std::list<_Tp, _Alloc>::value_type = Drawable*, std::list<_Tp, _Alloc>::allocator_type = std::allocator<Drawable*>]
+/usr/include/c++/4.6/bits/stl_list.h:544:7: note:   candidate expects 3 arguments, 1 provided
+/usr/include/c++/4.6/bits/stl_list.h:532:7: note: std::list<_Tp, _Alloc>::list(std::list<_Tp, _Alloc>::size_type) [with _Tp = Drawable*, _Alloc = std::allocator<Drawable*>, std::list<_Tp, _Alloc>::size_type = long unsigned int]
+/usr/include/c++/4.6/bits/stl_list.h:532:7: note:   no known conversion for argument 1 from ‘std::list<Block*>’ to ‘long unsigned int’
+/usr/include/c++/4.6/bits/stl_list.h:520:7: note: std::list<_Tp, _Alloc>::list(const allocator_type&) [with _Tp = Drawable*, _Alloc = std::allocator<Drawable*>, std::list<_Tp, _Alloc>::allocator_type = std::allocator<Drawable*>]
+/usr/include/c++/4.6/bits/stl_list.h:520:7: note:   no known conversion for argument 1 from ‘std::list<Block*>’ to ‘const allocator_type& {aka const std::allocator<Drawable*>&}’
+/usr/include/c++/4.6/bits/stl_list.h:512:7: note: std::list<_Tp, _Alloc>::list() [with _Tp = Drawable*, _Alloc = std::allocator<Drawable*>]
+/usr/include/c++/4.6/bits/stl_list.h:512:7: note:   candidate expects 0 arguments, 1 provided
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:26:34: error: no matching function for call to ‘DrawManager::addDrawables(std::list<Block*>)’
+../Main.cpp:26:34: note: candidate is:
+../DrawManager.h:21:8: note: void DrawManager::addDrawables(std::list<Drawable*>)
+../DrawManager.h:21:8: note:   no known conversion for argument 1 from ‘std::list<Block*>’ to ‘std::list<Drawable*>’
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:26:34: error: no matching function for call to ‘DrawManager::addDrawables(std::list<Block*>)’
+../Main.cpp:26:34: note: candidate is:
+../DrawManager.h:21:8: note: void DrawManager::addDrawables(std::list<Drawable*>)
+../DrawManager.h:21:8: note:   no known conversion for argument 1 from ‘std::list<Block*>’ to ‘std::list<Drawable*>’
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:26:42: error: no matching function for call to ‘DrawManager::addDrawable(Block**)’
+../Main.cpp:26:42: note: candidate is:
+../DrawManager.h:20:8: note: void DrawManager::addDrawable(Drawable*)
+../DrawManager.h:20:8: note:   no known conversion for argument 1 from ‘Block**’ to ‘Drawable*’
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:26:50: error: no matching function for call to ‘DrawManager::addDrawables(std::list<Block*>::allocator_type)’
+../Main.cpp:26:50: note: candidate is:
+../DrawManager.h:21:8: note: void DrawManager::addDrawables(std::list<Drawable*>)
+../DrawManager.h:21:8: note:   no known conversion for argument 1 from ‘std::list<Block*>::allocator_type {aka std::allocator<Block*>}’ to ‘std::list<Drawable*>’
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:26:34: error: no matching function for call to ‘DrawManager::addDrawables(std::list<Block*>)’
+../Main.cpp:26:34: note: candidate is:
+../DrawManager.h:21:8: note: void DrawManager::addDrawables(std::list<Drawable*>)
+../DrawManager.h:21:8: note:   no known conversion for argument 1 from ‘std::list<Block*>’ to ‘std::list<Drawable*>’
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+In file included from ../DrawManager.cpp:9:0:
+../DrawManager.h:17:21: error: expected unqualified-id before ‘;’ token
+../DrawManager.h:22:44: error: template argument 1 is invalid
+../DrawManager.h:22:44: error: template argument 2 is invalid
+../DrawManager.h:27:13: error: ‘T’ was not declared in this scope
+../DrawManager.h:27:13: note: suggested alternative:
+/home/samuel/SFML-1.6/include/SFML/Window/Event.hpp:62:9: note:   ‘sf::Key::T’
+../DrawManager.h:27:15: error: template argument 1 is invalid
+../DrawManager.h:27:15: error: template argument 2 is invalid
+../DrawManager.cpp:11:21: error: expected unqualified-id before ‘;’ token
+../DrawManager.cpp:17:41: error: ‘T’ was not declared in this scope
+../DrawManager.cpp:17:41: note: suggested alternative:
+/home/samuel/SFML-1.6/include/SFML/Window/Event.hpp:62:9: note:   ‘sf::Key::T’
+../DrawManager.cpp:17:43: error: template argument 1 is invalid
+../DrawManager.cpp:17:43: error: template argument 2 is invalid
+../DrawManager.cpp:17:6: error: prototype for ‘void DrawManager::addDrawable(int)’ does not match any in class ‘DrawManager’
+../DrawManager.h:21:8: error: candidate is: void DrawManager::addDrawable(Drawable*)
+../DrawManager.cpp:21:42: error: ‘T’ was not declared in this scope
+../DrawManager.cpp:21:42: note: suggested alternative:
+/home/samuel/SFML-1.6/include/SFML/Window/Event.hpp:62:9: note:   ‘sf::Key::T’
+../DrawManager.cpp:21:44: error: template argument 1 is invalid
+../DrawManager.cpp:21:44: error: template argument 2 is invalid
+../DrawManager.cpp: In member function ‘void DrawManager::addDrawables(int)’:
+../DrawManager.cpp:22:11: error: request for member ‘merge’ in ‘((DrawManager*)this)->DrawManager::drawlist’, which is of non-class type ‘int’
+../DrawManager.cpp: In member function ‘void DrawManager::drawAll(sf::RenderWindow*)’:
+../DrawManager.cpp:28:19: error: request for member ‘begin’ in ‘((DrawManager*)this)->DrawManager::drawlist’, which is of non-class type ‘int’
+../DrawManager.cpp:28:43: error: request for member ‘end’ in ‘((DrawManager*)this)->DrawManager::drawlist’, which is of non-class type ‘int’
+make: *** [DrawManager.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+../DrawManager.cpp:11:21: error: expected unqualified-id before ‘;’ token
+../DrawManager.cpp:17:41: error: ‘T’ was not declared in this scope
+../DrawManager.cpp:17:41: note: suggested alternative:
+/home/samuel/SFML-1.6/include/SFML/Window/Event.hpp:62:9: note:   ‘sf::Key::T’
+../DrawManager.cpp:17:43: error: template argument 1 is invalid
+../DrawManager.cpp:17:43: error: template argument 2 is invalid
+../DrawManager.cpp:17:6: error: prototype for ‘void DrawManager::addDrawable(int)’ does not match any in class ‘DrawManager’
+../DrawManager.h:20:8: error: candidate is: void DrawManager::addDrawable(Drawable*)
+../DrawManager.cpp:21:42: error: ‘T’ was not declared in this scope
+../DrawManager.cpp:21:42: note: suggested alternative:
+/home/samuel/SFML-1.6/include/SFML/Window/Event.hpp:62:9: note:   ‘sf::Key::T’
+../DrawManager.cpp:21:44: error: template argument 1 is invalid
+../DrawManager.cpp:21:44: error: template argument 2 is invalid
+../DrawManager.cpp:21:6: error: prototype for ‘void DrawManager::addDrawables(int)’ does not match any in class ‘DrawManager’
+../DrawManager.h:21:8: error: candidate is: void DrawManager::addDrawables(std::list<Drawable*>)
+make: *** [DrawManager.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+../DrawManager.cpp:20:6: error: prototype for ‘void DrawManager::addDrawables(std::list<Drawable>*)’ does not match any in class ‘DrawManager’
+../DrawManager.h:21:8: error: candidate is: void DrawManager::addDrawables(std::list<Drawable*>)
+make: *** [DrawManager.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+Finished building: ../DrawManager.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:26:34: error: no matching function for call to ‘DrawManager::addDrawables(std::list<Block*>)’
+../Main.cpp:26:34: note: candidate is:
+../DrawManager.h:21:8: note: void DrawManager::addDrawables(std::list<Drawable*>)
+../DrawManager.h:21:8: note:   no known conversion for argument 1 from ‘std::list<Block*>’ to ‘std::list<Drawable*>’
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+make: *** wait: No child processes. Stop.
+make: *** Waiting for unfinished jobs....
+make: *** wait: No child processes. Stop.
+
+**** Build of configuration Debug for project AMazer ****
+
+Error: Command canceled
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp: In member function ‘void MapGen::drawMap(sf::RenderWindow*)’:
+../MapGen.cpp:33:4: error: base operand of ‘->’ has non-pointer type ‘Block’
+../MapGen.cpp: At global scope:
+../MapGen.cpp:37:18: error: prototype for ‘std::list<Block> MapGen::getMap()’ does not match any in class ‘MapGen’
+../MapGen.h:21:20: error: candidate is: std::list<Block*> MapGen::getMap()
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp:37:18: error: prototype for ‘std::list<Block> MapGen::getMap()’ does not match any in class ‘MapGen’
+../MapGen.h:21:20: error: candidate is: std::list<Block*> MapGen::getMap()
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:39:31: error: no match for ‘operator*’ in ‘*MapGen::getMap()().std::list<_Tp, _Alloc>::front [with _Tp = Block, _Alloc = std::allocator<Block>, std::list<_Tp, _Alloc>::reference = Block&]()’
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+../Main.cpp: In function ‘int main(int, char**)’:
+../Main.cpp:39:31: error: no matching function for call to ‘sf::RenderWindow::Draw(Block&)’
+../Main.cpp:39:31: note: candidate is:
+/home/samuel/SFML-1.6/include/SFML/Graphics/RenderTarget.hpp:67:18: note: virtual void sf::RenderTarget::Draw(const sf::Drawable&)
+/home/samuel/SFML-1.6/include/SFML/Graphics/RenderTarget.hpp:67:18: note:   no known conversion for argument 1 from ‘Block’ to ‘const sf::Drawable&’
+make: *** [Main.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp: In member function ‘void MapGen::drawMap(sf::RenderWindow*)’:
+../MapGen.cpp:32:15: error: cannot convert ‘const Block’ to ‘Block*’ in initialization
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp: In constructor ‘MapGen::MapGen(Resources*)’:
+../MapGen.cpp:14:30: error: no matching function for call to ‘Block::Block()’
+../MapGen.cpp:14:30: note: candidates are:
+../Block.h:19:3: note: Block::Block(sf::Image&)
+../Block.h:19:3: note:   candidate expects 1 argument, 0 provided
+../Block.h:16:7: note: Block::Block(const Block&)
+../Block.h:16:7: note:   candidate expects 1 argument, 0 provided
+../MapGen.cpp: In constructor ‘MapGen::MapGen(Resources*)’:
+../MapGen.cpp:14:30: error: no matching function for call to ‘Block::Block()’
+../MapGen.cpp:14:30: note: candidates are:
+../Block.h:19:3: note: Block::Block(sf::Image&)
+../Block.h:19:3: note:   candidate expects 1 argument, 0 provided
+../Block.h:16:7: note: Block::Block(const Block&)
+../Block.h:16:7: note:   candidate expects 1 argument, 0 provided
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp: In constructor ‘MapGen::MapGen(Resources*)’:
+../MapGen.cpp:14:30: error: no matching function for call to ‘Block::Block()’
+../MapGen.cpp:14:30: note: candidates are:
+../Block.h:19:3: note: Block::Block(sf::Image&)
+../Block.h:19:3: note:   candidate expects 1 argument, 0 provided
+../Block.h:16:7: note: Block::Block(const Block&)
+../Block.h:16:7: note:   candidate expects 1 argument, 0 provided
+../MapGen.cpp: In constructor ‘MapGen::MapGen(Resources*)’:
+../MapGen.cpp:14:30: error: no matching function for call to ‘Block::Block()’
+../MapGen.cpp:14:30: note: candidates are:
+../Block.h:19:3: note: Block::Block(sf::Image&)
+../Block.h:19:3: note:   candidate expects 1 argument, 0 provided
+../Block.h:16:7: note: Block::Block(const Block&)
+../Block.h:16:7: note:   candidate expects 1 argument, 0 provided
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+In file included from ../Block.cpp:9:0:
+../Block.h: In constructor ‘Block::Block(sf::Image&)’:
+../Block.h:19:41: error: no matching function for call to ‘Drawable::Drawable(sf::Image&)’
+../Block.h:19:41: note: candidates are:
+../Drawable.h:16:3: note: Drawable::Drawable()
+../Drawable.h:16:3: note:   candidate expects 0 arguments, 1 provided
+../Drawable.h:14:7: note: Drawable::Drawable(const Drawable&)
+../Drawable.h:14:7: note:   no known conversion for argument 1 from ‘sf::Image’ to ‘const Drawable&’
+make: *** [Block.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+Finished building: ../Block.cpp
+ 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+Finished building: ../DrawManager.cpp
+ 
+Building file: ../Drawable.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Drawable.d" -MT"Drawable.d" -o "Drawable.o" "../Drawable.cpp"
+Finished building: ../Drawable.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+Finished building: ../Block.cpp
+ 
+Building file: ../DrawManager.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"DrawManager.d" -MT"DrawManager.d" -o "DrawManager.o" "../DrawManager.cpp"
+Finished building: ../DrawManager.cpp
+ 
+Building file: ../Drawable.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Drawable.d" -MT"Drawable.d" -o "Drawable.o" "../Drawable.cpp"
+Finished building: ../Drawable.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp: In member function ‘void MapGen::buildMaze()’:
+../MapGen.cpp:34:53: error: cannot convert ‘Block’ to ‘Block*’ in initialization
+../MapGen.cpp: In member function ‘Block& MapGen::getBlock(int, int)’:
+../MapGen.cpp:43:28: error: invalid initialization of non-const reference of type ‘Block&’ from an rvalue of type ‘Block*’
+../MapGen.cpp:44:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp: In member function ‘void MapGen::buildMaze()’:
+../MapGen.cpp:34:53: error: cannot convert ‘Block’ to ‘Block*’ in initialization
+../MapGen.cpp: In member function ‘Block& MapGen::getBlock(int, int)’:
+../MapGen.cpp:43:30: error: invalid initialization of non-const reference of type ‘Block&’ from an rvalue of type ‘Block*’
+../MapGen.cpp:44:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp: In member function ‘void MapGen::buildMaze()’:
+../MapGen.cpp:34:53: error: cannot convert ‘Block’ to ‘Block*’ in initialization
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp:42:7: error: prototype for ‘Block MapGen::getBlock(int, int)’ does not match any in class ‘MapGen’
+../MapGen.h:24:9: error: candidate is: Block* MapGen::getBlock(int, int)
+../MapGen.cpp: In member function ‘void MapGen::drawMap(sf::RenderWindow*)’:
+../MapGen.cpp:49:18: error: request for member ‘draw’ in ‘MapGen::getBlock(i, j)’, which is of non-class type ‘Block*’
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp: In member function ‘Block* MapGen::getBlock(int, int)’:
+../MapGen.cpp:43:27: error: cannot convert ‘Block’ to ‘Block*’ in return
+../MapGen.cpp:44:1: warning: control reaches end of non-void function [-Wreturn-type]
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+In file included from ../Block.cpp:9:0:
+../Block.h:25:17: sorry, unimplemented: non-static data member initializers
+../Block.h:25:17: error: ISO C++ forbids in-class initialization of non-const static member ‘inMaze’
+make: *** [Block.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+In file included from ../Block.cpp:9:0:
+../Block.h:25:17: sorry, unimplemented: non-static data member initializers
+../Block.h:25:17: error: ISO C++ forbids in-class initialization of non-const static member ‘inMaze’
+make: *** [Block.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+Finished building: ../Block.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+../MapGen.cpp: In member function ‘void MapGen::buildMaze()’:
+../MapGen.cpp:39:36: error: void value not ignored as it ought to be
+make: *** [MapGen.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+Building file: ../Block.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Block.d" -MT"Block.d" -o "Block.o" "../Block.cpp"
+Finished building: ../Block.cpp
+ 
+Building file: ../Main.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"Main.d" -MT"Main.d" -o "Main.o" "../Main.cpp"
+Finished building: ../Main.cpp
+ 
+Building file: ../MapGen.cpp
+Invoking: GCC C++ Compiler
+g++ -D__GXX_EXPERIMENTAL_CXX0X__ -I/home/samuel/SFML-1.6/include -O0 -g3 -Wall -c -fmessage-length=0 -std=c++0x -MMD -MP -MF"MapGen.d" -MT"MapGen.d" -o "MapGen.o" "../MapGen.cpp"
+Finished building: ../MapGen.cpp
+ 
+Building target: AMazer
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-1.6/lib -o "AMazer"  ./Block.o ./DrawManager.o ./Drawable.o ./Main.o ./MapGen.o ./Resources.o   -lsfml-graphics -lsfml-window -lsfml-system
+Finished building target: AMazer
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project AMazer ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****

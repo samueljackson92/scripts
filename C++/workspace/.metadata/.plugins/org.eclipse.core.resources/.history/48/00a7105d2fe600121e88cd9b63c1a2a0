@@ -1,0 +1,26 @@
+/*
+ * SkipList.h
+ *
+ *  Created on: 6 Jul 2013
+ *      Author: samuel
+ */
+
+#ifndef SKIPLIST_H_
+#define SKIPLIST_H_
+
+class SkipList
+{
+public:
+	SkipList();
+	virtual ~SkipList();
+
+	void insert(double value);
+	bool contains();
+	bool remove();
+
+private:
+	ListNode* head;
+
+};
+
+#endif /* SKIPLIST_H_ */

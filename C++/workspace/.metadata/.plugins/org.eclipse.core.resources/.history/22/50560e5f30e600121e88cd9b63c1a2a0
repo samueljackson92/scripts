@@ -1,0 +1,24 @@
+#ifndef LISTNODE_H_
+#define LISTNODE_H_
+
+/*
+ * ListNode.h
+ *
+ *  Created on: 6 Jul 2013
+ *      Author: samuel
+ */
+
+class ListNode
+{
+public:
+  ListNode(double data, ListNode* next);
+  virtual ~ListNode();
+
+  ListNode* next();
+
+private:
+  double m_data;
+  ListNode* m_next;
+};
+
+#endif /* LISTNODE_H_ */

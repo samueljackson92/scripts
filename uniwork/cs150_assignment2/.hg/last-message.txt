@@ -1,0 +1,1 @@
+Updated CV to reflect new tutor, tweaked styles to correctly display inputs in IE. Site is now cross-browser. Added PDF version of CV.

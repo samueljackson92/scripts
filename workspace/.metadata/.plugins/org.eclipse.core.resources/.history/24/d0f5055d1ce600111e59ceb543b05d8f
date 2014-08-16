@@ -1,0 +1,11 @@
+package uk.ac.aber.slj11;
+
+public class FileParser {
+	public static void main (String[] args) {
+		parseFile("Example.java");
+	}
+	
+	public void parseFile(String filename) {
+		
+	}
+}

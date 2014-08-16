@@ -1,0 +1,20 @@
+1332499700583	Move compilation unit
+1332583717162	Delete element
+1332586235526	Delete element
+1332589933386	Delete element
+1332669836643	Move compilation units
+1332672639509	Move file
+1332672701080	Delete element
+1332700685785	Rename method 'getPizza'
+1332702745721	Rename local variable 'submenu'
+1332704899167	Rename type 'PizzaSize'
+1332705262425	Rename field 'prices'
+1332705369896	Move compilation unit
+1332705580048	Rename type 'PizzaAdminWindow'
+1332705615288	Rename local variable 'pizza'
+1332706254530	Rename field 'selectedPizza'
+1332707200261	Rename method 'type'
+1332717053670	Rename method 'createTiredProduct'
+1332717711830	Rename type 'TieredAdminWindow'
+1332717742090	Rename type 'TieredProductAdminWindow'
+1332718460765	Rename local variable 'prices'

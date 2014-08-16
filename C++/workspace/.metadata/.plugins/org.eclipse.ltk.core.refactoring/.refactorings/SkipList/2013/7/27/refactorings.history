@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;SkipList/ListNode.cpp&apos; to &apos;SkipListNode.cpp&apos;" description="Rename resource &apos;ListNode.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ListNode.cpp" name="SkipListNode.cpp" stamp="1373192754550" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;SkipList/ListNode.h&apos; to &apos;SkipListNode.h&apos;" description="Rename resource &apos;ListNode.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ListNode.h" name="SkipListNode.h" stamp="1373192765018" updateReferences="true"/>
+</session>

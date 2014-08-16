@@ -1,0 +1,30 @@
+/*
+ * ListNode.cpp
+ *
+ *  Created on: 6 Jul 2013
+ *      Author: samuel
+ */
+
+#include "ListNode.h"
+
+ListNode::ListNode(double data, ListNode* next)
+  : m_data(data), m_next(next)
+{
+
+
+}
+
+ListNode::~ListNode()
+{
+
+}
+
+ListNode* ListNode::next()
+{
+  return m_next;
+}
+
+void ListNode::setNext(ListNode* next)
+{
+  m_next = next;
+}

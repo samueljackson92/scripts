@@ -1,0 +1,41 @@
+package uk.ac.aber.dcs.cs12420.aberpizza.data;
+
+import java.beans.XMLDecoder;
+import java.beans.XMLEncoder;
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.net.URISyntaxException;
+import java.net.URL;
+
+public class XMLIO {
+	public void encodeObject(Object obj, String filename) throws IOException, URISyntaxException {
+		createFileIfNoneExists(filename);
+		
+		XMLEncoder encoder = new XMLEncoder(new BufferedOutputStream(new FileOutputStream("/"+filename)));
+		encoder.setPersistenceDelegate(BigDecimal.class, encoder.getPersistenceDelegate(Integer.class));
+		encoder.writeObject(obj);
+		encoder.flush();
+		encoder.close();
+	}
+	
+	public Object decodeObject(String filename) throws FileNotFoundException{	
+		XMLDecoder decoder = new XMLDecoder(new BufferedInputStream(new FileInputStream("/"+filename)));
+		Object obj = decoder.readObject();
+		decoder.close();
+		return obj;
+	}
+	
+	private void createFileIfNoneExists(String filename) throws IOException {
+		File file = new File(filename);
+		
+		if (!file.isFile()){
+			file.createNewFile();
+		}
+	}
+}

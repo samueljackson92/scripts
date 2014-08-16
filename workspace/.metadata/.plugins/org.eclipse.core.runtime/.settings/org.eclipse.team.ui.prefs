@@ -1,0 +1,5 @@
+#Fri Mar 23 10:58:15 GMT 2012
+org.eclipse.team.ui.sychronizing_default_participant_sec_id=[AberPizza] https\://bitbucket.org/cylax/cs124_aberpizza
+eclipse.preferences.version=1
+org.eclipse.team.ui.first_time=false
+org.eclipse.team.ui.sychronizing_default_participant=com.vectrace.MercurialEclipse.synchronize.MercurialSynchronizeParticipant

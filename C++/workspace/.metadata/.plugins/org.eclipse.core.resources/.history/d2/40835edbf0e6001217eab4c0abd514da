@@ -1,0 +1,23 @@
+/*
+ * SkipList.cpp
+ *
+ *  Created on: 6 Jul 2013
+ *      Author: samuel
+ */
+
+#include "SkipList.h"
+
+#include <cmath>
+#include <cstdlib>
+#include <iostream>
+
+SkipList::SkipList(const int maxLev) :
+    m_head(NULL, maxLev), m_maxLevel(maxLev)
+{
+  SkipListNode* sentinel = new SkipListNode(INFINITY, m_maxLevel);
+}
+
+SkipList::~SkipList()
+{
+}
+

@@ -1,0 +1,11 @@
+#ifndef SKIPLISTTEST_H_
+#define SKIPLISTTEST_H_
+
+#include <cxxtest/TestSuite.h>
+
+class SkipListTest : public CxxTest::TestSuite
+{
+public:
+};
+
+#endif /*SKIPLISTTEST_H_*/

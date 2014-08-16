@@ -1,0 +1,30 @@
+/*
+ * ListNode.cpp
+ *
+ *  Created on: 6 Jul 2013
+ *      Author: samuel
+ */
+
+#include "SkipListNode.h"
+
+SkipListNode::SkipListNode(double data)
+  : m_data(data)
+{
+
+
+}
+
+SkipListNode::~SkipListNode()
+{
+
+}
+
+double getData() const
+{
+  return m_data;
+}
+
+void setData(double data)
+{
+  m_data = data;
+}

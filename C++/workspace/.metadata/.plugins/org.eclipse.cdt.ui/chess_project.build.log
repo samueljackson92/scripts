@@ -1,0 +1,60 @@
+10:51:48 **** Incremental Build of configuration Debug for project chess_project ****
+make all 
+Building target: chess_project
+Invoking: GCC C++ Linker
+g++ -L/home/samuel/SFML-2.0/lib -o "chess_project"  ./run.o   -lsfml-graphics -lsfml-window -lsfml-system
+/usr/bin/ld: warning: libGLEW.so.1.5, needed by /home/samuel/SFML-2.0/lib/libsfml-graphics.so, not found (try using -rpath or -rpath-link)
+/usr/bin/ld: warning: libjpeg.so.62, needed by /home/samuel/SFML-2.0/lib/libsfml-graphics.so, not found (try using -rpath or -rpath-link)
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `jpeg_finish_compress@LIBJPEG_6.2'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `jpeg_write_scanlines@LIBJPEG_6.2'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewUniform1fARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `jpeg_std_error@LIBJPEG_6.2'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__GLEW_ARB_shader_objects'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewGetObjectParameterivARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__GLEW_ARB_vertex_shader'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewFramebufferTexture2DEXT'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewUniformMatrix4fvARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `jpeg_set_quality@LIBJPEG_6.2'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewGenFramebuffersEXT'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewUniform3fARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `jpeg_set_defaults@LIBJPEG_6.2'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewRenderbufferStorageEXT'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `jpeg_CreateCompress@LIBJPEG_6.2'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__GLEW_ARB_fragment_shader'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewActiveTextureARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `jpeg_start_compress@LIBJPEG_6.2'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewShaderSourceARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `glewInit'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewBindFramebufferEXT'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewFramebufferRenderbufferEXT'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewLinkProgramARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewUseProgramObjectARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewBlendFuncSeparateEXT'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewGenRenderbuffersEXT'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewUniform2fARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `jpeg_destroy_compress@LIBJPEG_6.2'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewUniform4fARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewCreateProgramObjectARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `glewGetErrorString'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewCompileShaderARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewDeleteRenderbuffersEXT'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewDeleteObjectARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewGetUniformLocationARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewGetInfoLogARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__GLEW_EXT_blend_func_separate'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewDeleteFramebuffersEXT'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewCheckFramebufferStatusEXT'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewUniform1iARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__GLEW_ARB_texture_non_power_of_two'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `jpeg_stdio_dest@LIBJPEG_6.2'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__GLEW_ARB_shading_language_100'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewCreateShaderObjectARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewBindRenderbufferEXT'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__GLEW_EXT_framebuffer_object'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewAttachObjectARB'
+/home/samuel/SFML-2.0/lib/libsfml-graphics.so: undefined reference to `__glewGetHandleARB'
+collect2: error: ld returned 1 exit status
+make: *** [chess_project] Error 1
+
+10:51:48 Build Finished (took 563ms)
+

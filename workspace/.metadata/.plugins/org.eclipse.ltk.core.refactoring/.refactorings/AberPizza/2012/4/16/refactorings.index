@@ -1,0 +1,16 @@
+1334571664469	Move compilation units
+1334868349076	Rename method 'getSubtotal'
+1334868392557	Rename local variable 'subtotal'
+1334872166255	Delete element
+1334919912373	Rename method 'getProduct'
+1334924279746	Delete element
+1334935256333	Rename field 'mbl'
+1334935265648	Rename field 'bl'
+1334935276169	Rename field 'pl'
+1334935704182	Rename method 'getLibState'
+1334935898859	Rename local variable 'p'
+1334937058344	Rename field 'recieptsList'
+1334937365214	Rename field 'reciept'
+1334937552255	Rename field 'oi'
+1334937620155	Rename field 'pl'
+1334938388001	Delete element

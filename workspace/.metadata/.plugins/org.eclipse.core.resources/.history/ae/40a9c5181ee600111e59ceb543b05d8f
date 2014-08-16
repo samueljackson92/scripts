@@ -1,0 +1,31 @@
+package uk.ac.aber.slj11;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class FileParser {
+	public static void main (String[] args) {
+		FileParser fp = new FileParser();
+		
+		try {
+			fp.parseFile("Example.java");
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public void parseFile(String filename) throws IOException {
+		String line ="";
+		BufferedReader buffer = new BufferedReader(new FileReader(filename));
+		
+		while ((line = buffer.readLine()) != null) {
+			
+		}
+	}
+}

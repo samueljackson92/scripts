@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;XMLIO.java&apos; to &apos;Map Editor/src/uk.ac.aber.slj11&apos;&#x0D;&#x0A;- Original project: &apos;AberPizza&apos;&#x0D;&#x0A;- Destination element: &apos;Map Editor/src/uk.ac.aber.slj11&apos;&#x0D;&#x0A;- Original element: &apos;uk.ac.aber.dcs.cs12420.aberpizza.data.XMLIO.java&apos;" description="Copy compilation unit" destination="=Map Editor/src&lt;uk.ac.aber.slj11" element1="/src&lt;uk.ac.aber.dcs.cs12420.aberpizza.data{XMLIO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1338567453971" units="1" version="1.0"/>
+</session>

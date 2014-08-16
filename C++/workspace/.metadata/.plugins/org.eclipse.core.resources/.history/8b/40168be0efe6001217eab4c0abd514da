@@ -1,0 +1,25 @@
+#ifndef LISTNODE_H_
+#define LISTNODE_H_
+
+/*
+ * ListNode.h
+ *
+ *  Created on: 6 Jul 2013
+ *      Author: samuel
+ */
+
+class SkipListNode
+{
+public:
+  SkipListNode(double data);
+  virtual ~SkipListNode();
+
+
+  double getData() const;
+  void setData(double data);
+
+private:
+  double m_data;
+};
+
+#endif /* LISTNODE_H_ */

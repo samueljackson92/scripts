@@ -1,0 +1,45 @@
+package uk.ac.aber.dcs.cs12420.aberpizza.data;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.util.ArrayList;
+
+public class Till {
+	private ArrayList<Order> orders;
+
+	public void setOrders(ArrayList<Order> orders) {
+		this.orders = orders;
+	}
+
+	public Till() {
+		orders = new ArrayList<Order>();
+	}
+
+	public ArrayList<Order> getOrders() {
+		return orders;
+	}
+
+	public void addOrder(Order order) {
+		orders.add(order);
+	}
+
+	public BigDecimal getTotalForTheDay() {
+		BigDecimal total = new BigDecimal("0.00");
+		for (Order o : orders) {
+			total.add(o.getTotal());
+		}
+		return total;
+	}
+
+	public void save() throws IOException {
+		XMLIO xmlrunner = new XMLIO();
+		xmlrunner.encodeObject(this, "till.xml");
+	}
+
+	public static Till load() throws FileNotFoundException {
+		XMLIO xmlrunner = new XMLIO();
+		Object obj = xmlrunner.decodeObject("till.xml");
+		return (Till) obj;
+	}
+}

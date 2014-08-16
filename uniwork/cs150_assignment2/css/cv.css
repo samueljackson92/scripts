@@ -1,0 +1,16 @@
+/*
+Author: Samuel Jackson
+Date:	12/3/12
+*/
+
+#cv {}
+#cv ul, #cv p { font-size: 10pt; color: #333;}
+#cv ul	{list-style-type: square; padding: 15px;}
+#cv ul li	{padding: 10px;}
+#cv #cv-head {text-align: center;}
+#cv table tbody {border-spacing: 5px; color: #333; font-size: 10pt;}
+#cv table ul 	{margin-top: 0px; padding: 10px; text-align: left;}
+#cv table ul li {padding: 3px;}
+#cv table h4	{padding: 0px;margin: 0px;}
+#cv table p		{ padding-top: 3px; margin: 5px;}
+#cv .cv-date	{vertical-align:top; text-align: left;}

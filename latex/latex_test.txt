@@ -1,0 +1,25 @@
+\documentclass{article} % Specifies the
+                        % document class
+\begin{document}       % Start of text.
+\section{Why are we doing this greeps thing?}
+
+Basically what I was hoping is that you use this as a way to practice inheritance. I just tried it and sadly a few things have changed since I had the brilliant idea of using it. It turns out that what I thought was ‘basic’ greeps is not greeps-return – but actually that is better than the original.
+
+When you download Greenfoot you get a very simple scenario with Wombats eating Leafs (note that Wombat extends Actor). You can select new Wombat() and place the Wombat on the screen (and also Leafs) and then run the scenario.
+That will give you the general idea of Greenfoot.
+
+The basic idea of greeps-return is that MyGreeps are working against SimpleGreeps. When you click run they will both try and get tomatoes. The plan is to make your version better than the simple one. I got a score of -1 to start with but then I ‘improved’ my code and got a MUCH WORSE ? score.
+
+After you have got the hang of Greenfoot, the first thing to do is do into the MyGreep file and put in your names, compile and see the difference. Then read SimpleGreep and see if you can steal any ideas from it.
+
+Some information:
+it takes 2 greeps to get a tomato (one to load on the other's back)
+at the start of the MyGreep.java file all the rules are listed. (also on the Instructions document)
+
+So the idea is for your group to mess around with MyGreep until you improve the algorithm (you should save a copy of the current code at every step as backup). And then demonstrate to your tutorial group what you have done. You should have a couple of slides and a demo in your presentation.
+
+OK, so if this is all far too hard (is it really??) then you can download Greenfoot and give a presentation on just that and how Greenfoot helps people learn about inheritance.
+
+There is a small prize for the group that gets the overall highest score so tutors please keep track.
+
+\end{document}         % End of document

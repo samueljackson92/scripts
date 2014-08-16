@@ -1,0 +1,54 @@
+
+body {font-family:arial, sans-serif;}
+h1, h2, h3, h4, h5, h6, p, small {padding: 5px;}
+
+h1 {font-size: 40pt;}
+h2 {font-size: 25pt;}
+h3 {font-size: 15pt;}
+h4, legend {font-size: 12pt;}
+
+hr {width: 80%;  border: 0;
+    border-bottom: 1px dashed #ccc;}
+
+a {color: inherit;}
+#content small {color: #888; font-size: 8pt;}
+
+.textbox {padding: 10px; font-size: 12pt; border: 1px solid #aaa; display: inline; width: 305px;}
+input {
+	padding: 10px;
+	font-size: 12pt;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+textarea {margin: 10px 0px 10px 0px; display:block; padding: 10px; resize: none; width: 100%; border: 1px solid #aaa; 	padding: 10px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;}
+label {margin-right: 100px;}
+form {padding: 10px;}
+
+#header, #footer {text-align: center;}
+
+#header h1 {font-family: font-family: 'Roboto Slab', serif; margin-bottom: 20px;}
+
+#header .nav-list {text-align: center; width: 500px;}
+#header .nav-list li {display: inline;}
+
+#header #nav-bar ul li {padding: 10px;}
+#header #social-bar ul {margin-top: 15px;}
+#header #social-bar ul li {margin: 0 auto;display:inline; padding: 5px;}
+
+
+#content-wrap {background: url("../img/tile.png") repeat;}
+
+#content {background: #fff; padding-top: 0; margin: 0 auto; width: 500px; text-align: justify; font-family: 'Roboto Slab', serif; font-size: 10pt;}
+#content {
+	-moz-box-shadow: 0px 0px 10px #888;
+	-webkit-box-shadow: 0px 0px 10px #888;
+	box-shadow: 0px 0px 10px #aaa;
+}
+
+#blog-content {padding: 10px;}
+.post {margin-bottom:  20px;}
+.post p {color: #1c1c1c;}
+
+#footer {background: #dcdcdc; color: #5c5c5c; padding: 10px;}

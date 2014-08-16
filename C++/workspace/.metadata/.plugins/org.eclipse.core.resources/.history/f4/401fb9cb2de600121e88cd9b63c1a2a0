@@ -1,0 +1,20 @@
+/*
+ * ListNode.cpp
+ *
+ *  Created on: 6 Jul 2013
+ *      Author: samuel
+ */
+
+#include "ListNode.h"
+
+ListNode::ListNode(T data, ListNode* next)
+{
+  // TODO Auto-generated constructor stub
+
+}
+
+ListNode::~ListNode()
+{
+  // TODO Auto-generated destructor stub
+}
+

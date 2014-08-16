@@ -1,0 +1,95 @@
+/*
+ * SkipList.cpp
+ *
+ *  Created on: 6 Jul 2013
+ *      Author: samuel
+ */
+
+#include "SkipList.h"
+
+#include <cstdlib>
+
+SkipList::SkipList() :
+    m_head(NULL)
+{
+
+}
+
+SkipList::~SkipList()
+{
+  if (m_head != NULL)
+  {
+    ListNode* current = NULL;
+    while (m_head->next() != NULL)
+    {
+      current = m_head->next();
+      delete m_head;
+      m_head = current;
+    }
+
+    delete m_head;
+  }
+}
+
+void SkipList::insert(double value)
+{
+  if (isEmpty())
+  {
+    //insert node as the head
+    m_head = new ListNode(value, NULL);
+  }
+  else
+  {
+    //value is at very start of list
+    if (m_head->getData() >= value)
+    {
+      ListNode* temp = m_head;
+      m_head = new ListNode(value, temp);
+    }
+    else
+    {
+      ListNode* current = m_head;
+      ListNode* prev = NULL;
+      bool found = false;
+
+
+      while(current != NULL && !found) {
+
+      }
+    }
+  }
+}
+
+bool SkipList::contains(double value)
+{
+  if (isEmpty())
+  {
+    ListNode* current = m_head;
+    while (true)
+    {
+      if (current->getData() == value)
+      {
+        return true;
+      }
+      else if (current->next() == NULL)
+      {
+        return false;
+      }
+      else
+      {
+        current = current->next();
+      }
+    }
+  }
+
+  return false;
+}
+
+bool SkipList::remove()
+{
+}
+
+bool SkipList::isEmpty()
+{
+  return (m_head == NULL);
+}

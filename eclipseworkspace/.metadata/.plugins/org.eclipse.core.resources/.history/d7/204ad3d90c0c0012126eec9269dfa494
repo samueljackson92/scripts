@@ -1,0 +1,48 @@
+
+/**
+ * Contact describes a person's contact information
+ * Objects of thsi class do nothing except store information
+ * 
+ * @author Lynda
+ * @version 29/9/08
+ */
+public class Contact
+{
+    private String name; //name of contact
+    private String phone; //phone of contact
+    
+    /*
+     * constructor
+     */
+    public Contact() 
+    {
+        name="unassigned";      //short for this.name
+        phone="no phone";
+    }
+    
+    /*
+     * constructor
+     */
+    public Contact(String theName, String thePhone) 
+    {
+        name=theName;
+        phone=thePhone;
+    }
+    /*
+     * constructor
+     */
+    public String toString() 
+    {
+       return name+" - "+phone;
+    }
+    
+    public static void main (String[] args) {
+    	
+    	Contact a = new Contact("Tom Stitfall", "07794961880");
+    	Contact b = new Contact("Samuel Jackson", "0773242343");
+    	
+    	System.out.println(a);
+    	System.out.println(b);
+    }
+  
+}

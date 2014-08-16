@@ -1,0 +1,12 @@
+data/block.lua.i
+data/images/black.png.i
+data/images/black8.png.i
+data/images/white.png.i
+data/images/white8.png.i
+data/lifemanager.lua.i
+data/main.lua.i
+data/images/bluealive.png.i
+data/images/bluedead.png.i
+data/images/redalive.png.i
+data/images/reddead.png.i
+data/player.lua.i
